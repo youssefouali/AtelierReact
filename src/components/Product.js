@@ -36,7 +36,7 @@ export default function Product(props) {
       <ProductInfoWrapperBest>
         <span>Best Product</span>
         <span>
-          <a>{product.name}</a>
+          <a href={"/product/" + product.name}>{product.name}</a>
         </span>
         <span>{product.price}</span>
         <span>Likes : {product.likes}</span>
@@ -50,7 +50,7 @@ export default function Product(props) {
       </ProductImageWrapper>
       <ProductInfoWrapper>
         <span>
-          <a>{product.name}</a>
+          <a  href={"/product/" + product.name}>{product.name}</a>
         </span>
         <span>{product.price}</span>
         <span>Likes : {product.likes}</span>
